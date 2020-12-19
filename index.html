@@ -10,161 +10,235 @@
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     </head>
     <body>
+        
         <header id="header">
             <div class="page-container">
                 <div class="nav-bar">
                 
-                <div id="site-name">
-                    <a href="#">
-                        <h2>Space Travel</h2>
-                    </a>
-                </div>
-                <nav id="main-menu">
-                    <h3 class="hidden">Main navigation</h3>
-
-                    <ul class="menu">
-                        <li><a href="#about">ABOUT</a></li>
-                        <li><a href="#portfolio">WORKS</a></li>
-                        <li><a href="#contact">CONTACT</a></li>
-                    </ul>
-                </nav>
-                <nav class="hamburger-menu">
-                    
-                        <div id="target">
-                            <div class="target_inner">
-                            <span class="target_inner_line target_inner_1" id="line1"></span>
-                            <span class="target_inner_line target_inner_2" id="line2"></span>
-                            <span class="target_inner_line target_inner_3" id="line3"></span>
-                            </div>
+                    <div id="site-name">
+                        <a href="#">
+                            <h2>Space Travel</h2>
+                        </a>
                     </div>
+                    <nav id="main-menu">
+                        <ul class="menu">
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#destination">DESTINATION</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="hamburger-menu">
+                        
+                            <div id="target">
+                                <div class="target_inner">
+                                <span class="target_inner_line target_inner_1" id="line1"></span>
+                                <span class="target_inner_line target_inner_2" id="line2"></span>
+                                <span class="target_inner_line target_inner_3" id="line3"></span>
+                                </div>
+                        </div>
 
-                </nav>
-                <div id="side-menu" class="side-nav">
+                    </nav>
+                    <div id="side-menu" class="side-nav">
 
-                    <div>
-                        <a href="index.html" class="initial list"><img src="images/initialWhite.svg" alt="MS"></a>
-                        <a href="#about" class="list">About</a>
-                        <a href="#portfolio" class="list">Works</a>
-                        <a href="#contact" class="list">Contact</a>
-                    </div>
-                </div>                   
+                        <div>
+                            <a href="index.html" class="logoMenu"><h2>Space Travel</h2></a>
+                            <a href="#about" class="list">ABOUT</a>
+                            <a href="#destination" class="list">DESTINATION</a>
+                            <a href="#contact" class="list">CONTACT</a>
+                        </div>
+                    </div>                   
                 </div>
             </div>
         </header>
         <main id="main">
-        <div class="hero">
-            <div class="heroBackground">
-                <div class="page-container">
-                    <div id="stars"></div>
-                    <div id="stars2"></div>
-                    
-                    <div class="rocket">
-                        <div class="oval"></div>
-                        <div class="rocketBody"></div>
-                        <div class="window"></div>
+            <div class="hero">
+                <div class="heroBackground">
+                    <div class="page-container">
+                        <div id="stars"></div>
+                        <div id="stars2"></div>
+                        <div class="saturn"><img src="images/saturn.png" alt="Saturn Image"></div>
+                        <div class="moon"><img src="images/moon.png" alt="Moon Image"></div>
+                        <div class="rocket">
+                            
+                            <div class="rocketBody"></div>
+                            <div class="oval"></div>
+                            <!-- <div class="smoke"></div> -->
+                            <div class="rocketbottom"></div>
+                            <div class="wing1"></div>
+                            <div class="wing2"></div>
+                            <div class="shadow"></div>
+                            <div class="shadow2"></div>
+                            <div class="shadow3"></div>
+                            <div class="window"></div>
+                        </div>
+                        
+                        <div class="cloudsAnimation">
+                            <div class="cloudAnimation1"></div>
+                            <div class="cloudAnimation2"></div>
+                            <div class="cloudAnimation3"></div>
+                            <div class="cloudAnimation4"></div>
+                            <div class="cloudAnimation5"></div>
+                            <div class="cloudAnimation6"></div>
+                            <div class="cloudAnimation7"></div>
+                            <div class="cloudAnimation8"></div>
+                            <div class="cloudAnimation9"></div>
+                            <div class="cloudAnimation10"></div>
+                            <div class="cloudAnimation11"></div>
+                            <div class="cloudAnimation12"></div>
+                            <div class="cloudAnimation13"></div>
+                            <div class="cloudAnimation14"></div>
+                            <div class="cloudAnimation15"></div>
+                        </div>
                     </div>
-                    <div class="saturn"><img src="images/saturn.png"></div>
-                    <div>
-                    <div class="moon"><img src="images/moon.png"></div>
-                    <div>
-
-                    <div class="smoke"></div>
-                    </div>
-                    <div class="cloudsAnimation">
-                        <div class="cloudAnimation1"></div>
-                        <div class="cloudAnimation2"></div>
-                        <div class="cloudAnimation3"></div>
-                        <div class="cloudAnimation4"></div>
-                        <div class="cloudAnimation5"></div>
-                        <div class="cloudAnimation6"></div>
-                        <div class="cloudAnimation7"></div>
-                        <div class="cloudAnimation8"></div>
-                        <div class="cloudAnimation9"></div>
-                        <div class="cloudAnimation10"></div>
-                        <div class="cloudAnimation11"></div>
-                        <div class="cloudAnimation12"></div>
-                        <div class="cloudAnimation13"></div>
-                        <div class="cloudAnimation14"></div>
-                        <div class="cloudAnimation15"></div>
-                    </div>
-                </div>
-            </div>
-
-          
-           
-        </div>
-        
-        <section class="cloudBg">
-            <div class="cloud1"></div>
-            <div class="cloud1"></div>
-            <h2 class="heading">GET IN TOUCH</h2>
-            <div class="contact-description">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pulvinar vitae turpis hendrerit auctor. Etiam ut turpis libero. Vestibulum sodales felis quam, at dignissim nulla accumsan sit amet. Fusce efficitur, justo non aliquam lacinia, nisl nibh rhoncus risus, a euismod elit sapien id nisl. Vivamus nec enim ipsum. Aliquam faucibus odio vitae sapien interdum tempus. Praesent eu elementum libero. Vivamus non elementum velit. Aliquam vitae augue quis ipsum auctor aliquam. Nam dictum dolor nisl, id sodales turpis laoreet non. Aenean sit amet ante auctor, accumsan mauris sit amet, gravida tellus. Mauris ac neque cursus, egestas nulla eu, venenatis purus. Morbi sit amet velit congue, fringilla orci quis, sagittis tellus. Vestibulum et justo quis ligula efficitur mattis. Aliquam feugiat, massa et egestas ullamcorper, quam turpis tempor nulla, eu finibus nulla nulla et est. Proin bibendum sagittis bibendum.</p>
-               
-            </div>
+                </div> 
+            </div> 
             
-        </section>
-        <section>
-            <h2 class="heading">GET IN TOUCH</h2>
-            <div class="contact-description">
-                <p>Please feel free to contact me to discuss a project, collaborate or just say hi!</p>
-                <p>Get in touch by form below or email me at <em>mihokoschick@gmail.com</em></p>
-            </div>
-            <form method="post" action="#">
-                <div>
-                    <label for="name">
-                        <input type="text" name="name" id="name" placeholder="Name"/>
-                    </label>
+            <section id="about" class="cloudBg">
+                <div class="page-container">
+                    <div class="cloudPiece1"></div>
+                    <div class="cloudPiece2"></div>
+                    <div class="cloudPiece3"></div>
+                    <div class="cloudPiece4"></div>
+                    <div class="cloudPiece5"></div>
+                    <div class="cloudPiece6"></div>
+                    <div class="cloudPiece7"></div>
+                    <div class="cloudPiece8"></div>
+                    <div class="cloudPiece9"></div>
                 </div>
-                <div>
-                    <label for="email">
-                        <input type="text" name="email" id="email" placeholder="Email"/>
-                    </label>
-                </div>
-                <div>
-                    <label for="message">
-                        <textarea name="message" id="message" placeholder="Message"></textarea>
-                    </label>
-                </div>
-                <button class="send-btn uppderCase" type="submit" >SEND</button>
-            </form>
+                
+                <h2 class="heading">Space Travel</h2>
+                <div class="space-description">
+                    <p class="effectFades effectFades1">Welcome to SpaceTravel! We are the first space travel agency in the world.</p>
+                    <p class="effectFades effectFades2"> Would you like special experiences in space?</p>
+                    <p class="effectFades effectFades3">We provides various tours for Moon, Mars, Jupiter and Neptune and our trained tour guides navigate you through fabulous experiences every moment.</p>
+                    <p class="effectFades effectFades4">Please feel free to contact us for your dream come true to go to space!</p>
+                </div> 
+            </section>
+                <section id="destination" class="destinationーcontainer">
+                    <h2 class="heading">Destinations</h2>
+                    <div class="cards-container">
+                        <div class="card card1">
+                            <div class="star-five star-five1"></div>
+                            <div class="star-five star-five2"></div>
+                            <div class="star-five star-five4"></div>
+                            <div class="star-five star-five5"></div> 
+                            <div class="star-five star-five6"></div> 
+                            <div class="star-five star-five7"></div>
+                            <div class="star-five8"></div> 
+                            <div class="star-five10"></div>         
+                            <div class="star-five13"></div>                    
+                            <img src="images/moon.png" alt="Moon Picture">
+                            <p>Moon</p>
+                        </div>
 
-        </section>
-        </div>
+                    
+                        <div class="card card2">
+                            <div class="star-five star-five1"></div>
+                            <div class="star-five star-five2"></div>
+                            <div class="star-five star-five3"></div>
+                            <div class="star-five star-five4"></div>
+                            <div class="star-five12"></div> 
+                            <div class="star-five9"></div> 
+                            
+                            <div class="earth"><img src="images/earth.png" alt="Earth picture"></div>
+                            
+                            <img src="images/mars.png" alt="Mars picture">
+                            <p>Mars</p>
+                        </div>
+                        <div class="card card3">
+                            <div class="star-five star-five1"></div>
+                            <div class="star-five star-five2"></div>
+                            <div class="star-five star-five3"></div>
+                            <div class="star-five star-five4"></div>
+                            <div class="star-five star-five5"></div> 
+                            <div class="star-five star-five6"></div> 
+                            <div class="star-five12"></div> 
+                            <div class="star-five10"></div>   
+                            <div class="star-five11"></div>                        
+
+                            <img class="jupiterPic" src="images/jupiter.png" alt="Jupiter Picture">
+                            <p>Jupiter</p>
+                        </div>
+                        <div class="card card4">
+                            <div class="star-five star-five1"></div>
+                            <div class="star-five star-five2"></div>
+                            <div class="star-five star-five3"></div>
+                            <div class="star-five star-five4"></div>
+                            <div class="star-five star-five5"></div> 
+                            <!-- <div class="star-five8"></div>  -->
+                            <div class="star-five12"></div> 
+                            <div class="star-five10"></div> 
+                            <div class="star-five star-five7"></div>
+                            <img class="neptunePic" src="images/neptune.png" alt="Neptune picture">
+                            <p>Neptune</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="contact" class="contact-container">
+                    <div id="stars3"></div>
+                    <div class="form-container">
+                        <h2 class="heading">GET IN TOUCH</h2>
+                        <div class="form-bg">
+                            <form id="inquiryForm" name="form_inquiry">
+                                <div>
+                                    <label for="name">
+                                        <input type="text" name="name" id="name" placeholder="Name" required/>
+                                    </label>
+                                </div>
+                                <div>
+                                    <label for="email">
+                                        <input type="text" name="email" id="email" placeholder="Email" required/>
+                                    </label>
+                                </div>
+                                <div>
+                                    <label for="message">
+                                        <textarea name="message" id="message" placeholder="Message" required></textarea>
+                                    </label>
+                                </div>
+                                <div class="button_container">
+                                    <button class="send-btn uppderCase" type="submit" >SUBMIT</button>
+                                   
+                                    <div class="star-five star-form1"></div>
+                                    <div class="star-five star-form2"></div>
+                                    <div class="star-five star-form3"></div>
+                                    <div class="star-five star-form4"></div>
+                                    <div class="star-five star-form5"></div> 
+                                    <div class="star-five star-form6"></div> 
+                                
+                                    <div class="star-five star-fshooting1"></div> 
+                                    <div class="star-five star-fshooting2"></div> 
+                                    <div class="star-five star-fshooting3"></div> 
+                                  
+                                </div>
+                            </form>
+                        </div>
+                        <div class="thanks_msg">
+                            <h3>Thank you very much for your inquiry!</h3>
+                            <p>Our space travel expert will contact you soon.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="traveler">
+                        <div class="traveler-head"></div>
+                        <div class="face-cover"></div>
+                        <div class="traveler-body"></div>
+                        <div class="traveler-arm1"></div>
+                        <div class="traveler-arm2"></div>
+                        <div class="traveler-leg1"></div>
+                        <div class="traveler-leg2"></div>
+                    </div>
+                    <div class="moonBg">
+                        <img src="images/moonBg.png" alt="Moon background">  
+                    </div>
+                    <img class="earthBg" src="images/earth.png" alt="Earth picture">
+                </section>
         </main>
         <footer id="footer">
-        <div class="page-container">
-        <div class="footer-container">
-        <div class="credit">
-        <div class="name">MIHOKO SCHICK</div>
-        <div class="copyright">©2020 All Rights Reserved</div>
-        </div>
-        <div class="icons">
-
-        
-        </div>
-        </div>
-        </div>
+            <div class="footer-container">
+                <div class="name">MIHOKO SCHICK</div>
+                <div class="copyright">©2020 All Rights Reserved</div>
+            </div>
+         
         </footer>
-        <script>
-            
-            // $(function() {
-            //     console.log( "ready!" );
-            //     function changeColor(){
-            //         $('body').addClass('open');
-            //     }
-                
-            //     setTimeout(changeColor, 3000);
-                
-                 
-            // });
-            
-            
-            
-            
-//            $('#nav-toggle').click(function(){
-//              $('body').toggleClass('open');
-//            });
-        </script>
     </body>
 </html>
